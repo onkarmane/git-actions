@@ -7,5 +7,7 @@ COPY . /app
 # Set the working directory to /app
 WORKDIR /app
 
+RUN pip install -r requirements.txt
+
 # Run the command to execute the Python program
 CMD ["python", "app.py"]
