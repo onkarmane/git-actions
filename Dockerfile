@@ -11,3 +11,6 @@ RUN pip install -r requirements.txt
 
 # Run the command to execute the Python program
 CMD ["python", "app.py"]
+
+
+
